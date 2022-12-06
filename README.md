@@ -1,5 +1,5 @@
-# huggingface-multi-label-text-classification
-How 
+# Huggingface Multi-label Text Classification Using Amazon SageMaker
+
 
 In this [example notebook](./hf-sagmaker-multi-label-text-classifier.ipynb), we explore how to create a multi-label text classifer, by fine-tuning and deploying SOTA models with Amazon SageMaker, the Hugging Face container, and the Amazon SageMaker Python SDK.
 
@@ -19,6 +19,6 @@ We are providing the configuration and data channels as inputs for our estimator
 
 ![](./images/hf-sagemaker-input-ouput.png)
 
-Finally, Amazon SageMaker provides purpose-built tools for machine learning operations (MLOps) to help you automate and standardize processes across the ML lifecycle. Using [SageMaker MLOps tools](https://aws.amazon.com/sagemaker/mlops/?sagemaker-data-wrangler-whats-new.sort-by=item.additionalFields.postDateTime&sagemaker-data-wrangler-whats-new.sort-order=desc), you can easily train, test, troubleshoot, deploy, and govern ML models at scale to boost productivity of data scientists and ML engineers while maintaining model performance in production.
+Finally, Amazon SageMaker provides purpose-built tools for machine learning operations (MLOps) to help you automate and standardize processes across the ML lifecycle. Using [Amazon SageMaker MLOps tools](https://aws.amazon.com/sagemaker/mlops/?sagemaker-data-wrangler-whats-new.sort-by=item.additionalFields.postDateTime&sagemaker-data-wrangler-whats-new.sort-order=desc), you can easily train, test, troubleshoot, deploy, and govern ML models at scale to boost productivity of data scientists and ML engineers while maintaining model performance in production.
 
 ![](./images/MLOps-workflow.png)
