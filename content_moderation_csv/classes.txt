@@ -1,0 +1,4 @@
+Toxic
+Benign
+Threat
+Insult
