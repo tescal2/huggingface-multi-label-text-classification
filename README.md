@@ -3,7 +3,7 @@ How
 
 In this [example notebook](./hf-sagmaker-multi-label-text-classifier.ipynb), we explore how to create a multi-label text classifer, by fine-tuning and deploying SOTA models with Amazon SageMaker, the Hugging Face container, and the Amazon SageMaker Python SDK.
 
-![](./images/hf-sagemaker-input-ouput.png)
+![](./images/huggingface-sagemaker-architecture.png)
 
 We also rely on the library of pre-trained [models available in Hugging Face] (https://huggingface.co/models). We will demonstrate how you can bring your own content moderation data to fine tune the models, and use the processing scripts available in the Hugging Face hub for speeding up the process on tasks such as tokenization and data loading. Finally, we will deploy the model to an Amazon SageMaker endpoint and perform real-time inferences with sample phrases on our text classification use case.
 
